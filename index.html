@@ -1,0 +1,27 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <div root-component='HeaderComponent'>
+            <div component='UserInfoComponent'></div>
+            <div component='LogoutComponent'></div>
+        </div>
+
+        <div>
+            <h1> To do List </h1>
+        </div>
+
+        <div root-component='TodoListComponent' model='TaskList'>
+            <div component='TaskCounterComponent'>
+            </div>
+            <div component='NewTaskComponent'>
+            </div>
+            <div component='TaskListComponent'>
+            </div>
+        </div>
+        
+        <script type="module" src="js/app.js"></script>
+    </body>
+</html>
